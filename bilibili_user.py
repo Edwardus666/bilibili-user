@@ -68,7 +68,7 @@ for m in range(5214, 5215):
             'Referer': 'https://space.bilibili.com/' + str(i) + '?from=search&seid=' + str(random.randint(10000, 50000))
         }
         mid = payload['mid']
-
+# 123
         #使用post会报错 (2021/5/2)
         jscontent = requests \
           .session() \
